@@ -1,6 +1,6 @@
 FROM alpine:latest
 RUN apk update
-RUN apk add make gcc g++ pcre-dev openssl-dev unzip zlib-dev wget
+RUN apk add make gcc g++ pcre-dev openssl-dev unzip zlib-dev wget ffmpeg
 RUN wget http://nginx.org/download/nginx-1.18.0.tar.gz
 RUN wget https://github.com/sergey-dryabzhinsky/nginx-rtmp-module/archive/dev.zip
 RUN tar -xvzf nginx-1.18.0.tar.gz
