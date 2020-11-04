@@ -11,8 +11,8 @@ You are welcome to use the rest as a guide to build your own solution if you pre
 * Check https://stream.twitch.tv/ingests/ for your preferred server
 * Download [docker-compose.yml](https://raw.githubusercontent.com/dutchieToes/rtmp-proxy/master/docker-compose.yml)
 * Update __docker-compose.yml__ file with your settings
-  * TWITCH_RTMP=twitch_rtmp_url
-  * TWITCH_KEY=twitch_stream_key
+  * RTMP_HOST=twitch_rtmp_url
+  * RTMP_KEY=twitch_stream_key
 * In the same directory you saved docker-compose.yml, run: 
   * _docker-compose up -d_
 

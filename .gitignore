@@ -1,4 +1,5 @@
 test/**
+myfiles/**
 build.sh
 my-docker-compose.yml
 my-nginx.conf

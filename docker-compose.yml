@@ -1,11 +1,11 @@
 version: '2.4'
 services:
-  rtmp-proxy:
-    container_name: rtmp-proxy
-    restart: always
-    image: wiidandre/my-rtmp-proxy:latest
-    ports:
-      - 1935:1935
-    environment:
-      - TWITCH_RTMP=rtmp://live-lhr03.twitch.tv/app
-      - TWITCH_KEY=live_000000000_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    rtmp-proxy:
+        container_name: rtmp-proxy
+        restart: always
+        image: wiidandre/my-rtmp-proxy:latest
+        ports:
+          - 1935:1935
+        environment:
+          - RTMP_HOST=rtmp://live-lhr03.twitch.tv/app
+          - RTMP_KEY=live_000000000_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
