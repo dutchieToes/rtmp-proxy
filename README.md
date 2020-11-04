@@ -1,5 +1,6 @@
+#RTMP-Proxy v1.4.0
 ## General info
-This is a simple docker setup for [nginx-rtmp-module](https://github.com/sergey-dryabzhinsky/nginx-rtmp-module)
+This is a simple docker solution based on [nginx-rtmp-module](https://github.com/sergey-dryabzhinsky/nginx-rtmp-module)
 
 The only file you actually need once you installed __docker__ and __docker-compose__, is _docker-compose.yml_
 
