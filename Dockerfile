@@ -5,7 +5,7 @@ RUN wget http://nginx.org/download/nginx-1.18.0.tar.gz
 RUN wget https://github.com/sergey-dryabzhinsky/nginx-rtmp-module/archive/dev.zip
 RUN tar -xvzf nginx-1.18.0.tar.gz
 RUN unzip dev.zip
-RUN cd nginx-1.18.0/ && ./configure --with-http_ssl_module --add-module=../nginx-rtmp-module-dev && make && make install
+RUN cd nginx-1.18.0/ && ./configure --with-http_realip_module --with-http_ssl_module --add-module=../nginx-rtmp-module-dev && make && make install
 COPY conf.sh /conf.sh
 COPY nginx.conf /usr/local/nginx/conf/nginx.conf
 EXPOSE 1935
