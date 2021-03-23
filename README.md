@@ -1,4 +1,4 @@
-# RTMP-Proxy v1.4.1
+# RTMP-Proxy v1.4.2
 ## General info
 This is a simple docker solution based on [nginx-rtmp-module](https://github.com/sergey-dryabzhinsky/nginx-rtmp-module)
 
